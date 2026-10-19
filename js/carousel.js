@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   slides.forEach((_, i) => {
     const dot = document.createElement("button");
+    dot.type = "button";
     dot.className = "hero-dot" + (i === 0 ? " active" : "");
     dot.setAttribute("aria-label", `Go to slide ${i+1}`);
     dot.addEventListener("click", () => goTo(i));

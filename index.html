@@ -18,7 +18,7 @@
   <div class="announcement" id="announcementBar">
     <div class="container announcement-inner">
       <p id="announcementMessage">🎉 Free Shipping on Orders Above ₹999</p>
-      <button class="icon-btn announcement-close" id="announcementClose" aria-label="Close announcement">×</button>
+      <button type="button" class="icon-btn announcement-close" id="announcementClose" aria-label="Close announcement">×</button>
     </div>
   </div>
 
@@ -34,7 +34,7 @@
         <a class="nav-link active" href="#home">Home</a>
 
         <div class="nav-item has-dropdown">
-          <button class="nav-link dropdown-toggle" aria-expanded="false">Shop <span>⌄</span></button>
+          <button type="button" class="nav-link dropdown-toggle" aria-expanded="false">Shop <span>⌄</span></button>
           <div class="dropdown-menu">
             <a href="shop.html">All Products</a>
             <a href="shop.html?sort=featured">Featured Products</a>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="nav-item has-mega">
-          <button class="nav-link mega-toggle" aria-expanded="false">Categories <span>⌄</span></button>
+          <button type="button" class="nav-link mega-toggle" aria-expanded="false">Categories <span>⌄</span></button>
           <div class="mega-menu">
             <div class="mega-column">
               <h3>Electronics</h3>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="nav-item has-dropdown">
-          <button class="nav-link dropdown-toggle" aria-expanded="false">Deals <span>⌄</span></button>
+          <button type="button" class="nav-link dropdown-toggle" aria-expanded="false">Deals <span>⌄</span></button>
           <div class="dropdown-menu">
             <a href="deals.html">Flash Deals</a><a href="deals.html">Today's Deals</a>
             <a href="deals.html">Clearance Sale</a><a href="deals.html">Up to 20% Off</a><a href="deals.html">Up to 50% Off</a>
@@ -93,43 +93,43 @@
           <label class="sr-only" for="searchInput">Search products</label>
           <span class="search-icon">⌕</span>
           <input id="searchInput" type="search" placeholder="Search products..." autocomplete="off">
-          <button class="search-clear hidden" id="searchClear" aria-label="Clear search">×</button>
+          <button type="button" class="search-clear hidden" id="searchClear" aria-label="Clear search">×</button>
           <div class="search-suggestions" id="searchSuggestions"></div>
         </div>
         <a class="action-link" id="wishlistNav" href="wishlist.html" aria-label="Wishlist">♡ <span class="action-label">Wishlist</span> <b id="wishlistCount">0</b></a>
         <a class="action-link" id="cartNav" href="cart.html" aria-label="Cart">🛒 <span class="action-label">Cart</span> <b id="cartCount">0</b></a>
-        <button class="action-link account-button" id="accountButton" aria-expanded="false">◯ <span class="action-label">Account</span></button>
+        <button type="button" class="action-link account-button" id="accountButton" aria-expanded="false">◯ <span class="action-label">Account</span></button>
         <div class="account-menu" id="accountMenu">
           <div id="loggedOutMenu">
             <a href="login.html">Login</a><a href="signup.html">Create Account</a>
           </div>
           <div id="loggedInMenu" class="hidden"><strong class="account-greeting" id="accountUserName">Your account</strong>
             <a href="dashboard.html#overview">Dashboard</a><a href="dashboard.html#profile">My Profile</a><a href="dashboard.html#orders">My Orders</a>
-            <a href="dashboard.html#addresses">Addresses</a><a href="dashboard.html#settings">Settings</a><button id="logoutButton">Logout</button>
+            <a href="dashboard.html#addresses">Addresses</a><a href="dashboard.html#settings">Settings</a><button type="button" id="logoutButton">Logout</button>
           </div>
         </div>
-        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">☰</button>
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">☰</button>
       </div>
     </div>
 
     <div class="mobile-menu" id="mobileMenu">
       <a href="#home">Home</a>
-      <button class="mobile-accordion">Shop <span>+</span></button>
+      <button type="button" class="mobile-accordion">Shop <span>+</span></button>
       <div class="mobile-submenu">
         <a href="shop.html">All Products</a><a href="shop.html?sort=featured">Featured</a><a href="shop.html?sort=best">Best Sellers</a><a href="new-arrivals.html">New Arrivals</a>
       </div>
-      <button class="mobile-accordion">Categories <span>+</span></button>
+      <button type="button" class="mobile-accordion">Categories <span>+</span></button>
       <div class="mobile-submenu">
         <a href="shop.html?category=Electronics">Electronics</a><a href="shop.html?category=Fashion">Fashion</a><a href="shop.html?category=Home%20%26%20Kitchen">Home & Kitchen</a><a href="shop.html?category=Beauty">Beauty</a><a href="shop.html?category=Sports">Sports</a>
       </div>
-      <button class="mobile-accordion">Deals <span>+</span></button>
+      <button type="button" class="mobile-accordion">Deals <span>+</span></button>
       <div class="mobile-submenu">
         <a href="deals.html">Flash Deals</a><a href="deals.html">Today's Deals</a><a href="deals.html">Clearance</a>
       </div>
         <a href="new-arrivals.html">New Arrivals</a><a href="about.html">About</a><a href="contact.html">Contact</a>
       <a href="#searchInput" id="mobileSearchLink">Search Products</a>
-      <button id="mobileWishlist">♡ Wishlist <b>0</b></button>
-      <button id="mobileCart">🛒 Cart <b>0</b></button>
+      <button type="button" id="mobileWishlist">♡ Wishlist <b>0</b></button>
+      <button type="button" id="mobileCart">🛒 Cart <b>0</b></button>
     </div>
   </header>
 
@@ -162,9 +162,9 @@
           </div>
         </article>
       </div>
-      <button class="carousel-control prev" id="heroPrev" aria-label="Previous slide">‹</button>
-      <button class="carousel-control next" id="heroNext" aria-label="Next slide">›</button>
-      <div class="carousel-bottom"><div class="hero-dots" id="heroDots"></div><button class="pause-btn" id="heroPause" aria-label="Pause carousel">Ⅱ</button></div>
+      <button type="button" class="carousel-control prev" id="heroPrev" aria-label="Previous slide">‹</button>
+      <button type="button" class="carousel-control next" id="heroNext" aria-label="Next slide">›</button>
+      <div class="carousel-bottom"><div class="hero-dots" id="heroDots"></div><button type="button" class="pause-btn" id="heroPause" aria-label="Pause carousel">Ⅱ</button></div>
     </section>
 
     <!-- 4. Shop by Category -->
@@ -211,7 +211,7 @@
     <!-- 8. Trending Products -->
     <section class="section section-soft" id="trending">
       <div class="container">
-        <div class="section-heading"><div><span class="eyebrow">WHAT'S HOT</span><h2>🔥 Trending Now</h2><p>Popular picks shoppers are loving right now.</p></div><button class="text-link" id="shuffleTrending">Shuffle picks ↻</button></div>
+        <div class="section-heading"><div><span class="eyebrow">WHAT'S HOT</span><h2>🔥 Trending Now</h2><p>Popular picks shoppers are loving right now.</p></div><button type="button" class="text-link" id="shuffleTrending">Shuffle picks ↻</button></div>
         <div class="product-grid" id="trendingProducts"></div>
       </div>
     </section>
@@ -248,7 +248,7 @@
     <!-- 12. Customer Reviews -->
     <section class="section reviews-section">
       <div class="container">
-        <div class="section-heading"><div><span class="eyebrow">REAL SHOPPER STORIES</span><h2>What Our Customers Say</h2><p>A few words from the people who shop with us.</p></div><div class="review-controls"><button class="carousel-control small" id="reviewPrev" aria-label="Previous review">‹</button><button class="carousel-control small" id="reviewNext" aria-label="Next review">›</button></div></div>
+        <div class="section-heading"><div><span class="eyebrow">REAL SHOPPER STORIES</span><h2>What Our Customers Say</h2><p>A few words from the people who shop with us.</p></div><div class="review-controls"><button type="button" class="carousel-control small" id="reviewPrev" aria-label="Previous review">‹</button><button type="button" class="carousel-control small" id="reviewNext" aria-label="Next review">›</button></div></div>
         <div class="reviews-viewport"><div class="reviews-track" id="reviewsTrack"></div></div>
       </div>
     </section>
@@ -276,7 +276,7 @@
     </div>
   </footer>
 
-  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <button type="button" class="back-top" id="backTop" aria-label="Back to top">↑</button>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="js/catalog.js"></script><script src="js/main.js"></script>

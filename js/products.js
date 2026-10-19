@@ -24,7 +24,7 @@ function productCard(product, rank = null, variant = "") {
       <div class="product-image">
         <img src="${product.image}" alt="${product.name}" loading="lazy">
         <span class="product-badge">${badge || ""}</span>
-        <button class="wishlist-btn ${wished ? "active" : ""}" data-id="${product.id}" aria-label="${wished ? "Remove" : "Add"} ${product.name} ${wished ? "from" : "to"} wishlist">${wished ? "♥" : "♡"}</button>
+        <button type="button" class="wishlist-btn ${wished ? "active" : ""}" data-id="${product.id}" aria-label="${wished ? "Remove" : "Add"} ${product.name} ${wished ? "from" : "to"} wishlist">${wished ? "♥" : "♡"}</button>
       </div>
       <div class="product-content">
         <h3>${product.name}</h3>
@@ -36,7 +36,7 @@ function productCard(product, rank = null, variant = "") {
         </div>
         ${variant === "best" ? `<p style="font-size:.7rem;margin:-5px 0 12px">${Number(product.soldCount).toLocaleString("en-IN")}+ sold</p>` : ""}
         <div class="product-actions">
-          <button class="btn btn-primary add-cart" data-id="${product.id}">Add to Cart</button>
+          <button type="button" class="btn btn-primary add-cart" data-id="${product.id}">Add to Cart</button>
           <a class="btn btn-outline view-demo" data-id="${product.id}" href="product.html?id=${product.id}">View details</a>
         </div>
       </div>
