@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const panel=location.hash.replace("#","");if(panel&&panel!=="overview")setTimeout(()=>document.querySelector(`[data-panel="${panel}"]`)?.click(),80)});

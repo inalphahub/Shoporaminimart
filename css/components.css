@@ -1,0 +1,4 @@
+/* Component-level utility styles. Keep reusable component rules here. */
+.product-card .btn-primary.add-cart.added{background:#159a68}
+.product-card .btn-primary.add-cart.added::before{content:"✓ "}
+.no-results{grid-column:1/-1;text-align:center;padding:45px;color:#6f7484}
