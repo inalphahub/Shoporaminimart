@@ -1,6 +1,10 @@
 # Shopora Mini Mart — E-Commerce
 
-Shopora Mini Mart is a responsive frontend e-commerce experience built with HTML5, CSS3, vanilla JavaScript, JSON, and browser `localStorage`.
+Shopora Mini Mart is a responsive frontend e-commerce website developed using HTML5, CSS3, vanilla JavaScript, JSON, and browser `localStorage`. This repository contains the complete source code, project structure, frontend implementation, and development workflow.
+
+**Live Website:** https://inalphahub.github.io/Shoporaminimart/
+
+**GitHub Repository:** https://github.com/inalphahub/Shoporaminimart
 
 ## Pages
 
